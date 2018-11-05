@@ -1,0 +1,14 @@
+﻿  Eye.cpp
+  NeuralLayer.cpp
+  Neuron.cpp
+  RGBNeuron.cpp
+  main.cpp
+main.obj : error LNK2001: unresolved external symbol _glfwSwapBuffers
+main.obj : error LNK2001: unresolved external symbol __imp__glClear@4
+main.obj : error LNK2001: unresolved external symbol _glfwTerminate
+main.obj : error LNK2001: unresolved external symbol _glfwPollEvents
+main.obj : error LNK2001: unresolved external symbol _glfwInit
+main.obj : error LNK2001: unresolved external symbol _glfwCreateWindow
+main.obj : error LNK2001: unresolved external symbol _glfwMakeContextCurrent
+main.obj : error LNK2001: unresolved external symbol _glfwWindowShouldClose
+C:\Users\austi\source\repos\RLNN_DYNAMIC\Release\RLNN_DYNAMIC.exe : fatal error LNK1120: 8 unresolved externals
