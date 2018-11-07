@@ -5,16 +5,16 @@
 #define MAX_POTENTIAL 32
 #define DECAY_RATE 1
 
-class Neuron
+struct Neuron
 {
-	float x;
-	float y;
-	float z;
+	double x;
+	double y;
+	double z;
+
+	uint8_t layer;
 
 	Neuron* neurons[MAX_CONNECTIONS];
 
-	uint8_t potential;
-
-
+	Neuron(double x, double y, double z, uint8_t layer) : x(x), y(y), z(z), layer(layer) {}
+	Neuron() : Neuron(0, 0, 0, 0) {}
 };
-

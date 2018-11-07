@@ -1,7 +1,12 @@
 ﻿  main.cpp
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(209): warning C4244: 'argument': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(217): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(218): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(219): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(271): warning C4244: 'argument': conversion from 'uint64_t' to 'GLsizei', possible loss of data
   Generating code
-  1 of 223 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+  1 of 489 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  RLNN_DYNAMIC.vcxproj -> C:\Users\austi\source\repos\RLNN_DYNAMIC\x64\Release\RLNN_DYNAMIC.exe
+  RLNN_DYNAMIC.vcxproj -> C:\Users\Austin\Documents\GitHub\RLNN\x64\Release\RLNN_DYNAMIC.exe
