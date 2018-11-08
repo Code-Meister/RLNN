@@ -51,7 +51,7 @@ void Camera::update(GLFWwindow* window, double radius)
 	glfwGetCursorPos(window, &xpos, &ypos);
 	glfwSetCursorPos(window, width / 2, height / 2);
 
-	horAngle += -1.0f;// mouse_speed * float(width / 2 - xpos);
+	horAngle += -0.2 + mouse_speed * float(width / 2 - xpos);
 	verAngle += mouse_speed * float(height / 2 - ypos);
 
 	glm::vec3 up = glm::vec3(0, 1, 0);

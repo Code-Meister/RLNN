@@ -182,6 +182,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="shaders\fadeShader.frag" />
+    <None Include="shaders\fadeShader.vert" />
     <None Include="shaders\firstShader.frag" />
     <None Include="shaders\firstShader.vert" />
     <None Include="shaders\lastShader.frag" />

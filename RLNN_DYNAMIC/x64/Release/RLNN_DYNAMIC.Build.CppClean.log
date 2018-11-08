@@ -4,13 +4,13 @@ c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\rgbneuron.obj
 c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\neuron.obj
 c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\neurallayer.obj
 c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\eye.obj
-c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\camera.obj
 c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\cameratrack.obj
 c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\cameramanager.obj
-c:\users\austin\documents\github\rlnn\x64\release\rlnn_dynamic.exe
-c:\users\austin\documents\github\rlnn\x64\release\rlnn_dynamic.pdb
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\neuralnet.obj
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\camera.obj
 c:\users\austin\documents\github\rlnn\x64\release\rlnn_dynamic.ipdb
 c:\users\austin\documents\github\rlnn\x64\release\rlnn_dynamic.iobj
+c:\users\austin\documents\github\rlnn\x64\release\rlnn_dynamic.pdb
 c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\rlnn_dynamic.tlog\cl.command.1.tlog
 c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\rlnn_dynamic.tlog\cl.read.1.tlog
 c:\users\austin\documents\github\rlnn\rlnn_dynamic\x64\release\rlnn_dynamic.tlog\cl.write.1.tlog
