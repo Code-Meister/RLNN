@@ -13,5 +13,5 @@ void main()
 
 	vec3 prev = texture(oldData,UV).rgb;
 
-	color = current + prev * 0.9;
+	color = current + prev * 0.5;
 }

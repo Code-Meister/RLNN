@@ -7,5 +7,5 @@ in vec3 layerColor;
 
 void main()
 {	
-	color = layerColor;
+	color = layerColor * gl_FragCoord.x;
 }

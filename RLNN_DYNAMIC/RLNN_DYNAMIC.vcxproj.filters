@@ -16,6 +16,12 @@
     <Filter Include="Shaders">
       <UniqueIdentifier>{6bd01786-021c-43a2-9b08-31f0ae6b5012}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{4d5ffb5b-b05b-4421-85d6-d0e051af8222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NN">
+      <UniqueIdentifier>{2d3f1f6c-19c6-4be1-89d0-531526e8f53e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
@@ -33,46 +39,46 @@
     <ClInclude Include="RGBNeuron.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="NeuralNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Camera\Camera.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Camera\CameraManager.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Camera\CameraTrack.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NeuralNet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Eye.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NeuralLayer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Neuron.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="RGBNeuron.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Camera\Camera.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Camera</Filter>
     </ClCompile>
     <ClCompile Include="Camera\CameraManager.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Camera</Filter>
     </ClCompile>
     <ClCompile Include="Camera\CameraTrack.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralLayer.cpp">
+      <Filter>Source Files\NN</Filter>
     </ClCompile>
     <ClCompile Include="NeuralNet.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\NN</Filter>
+    </ClCompile>
+    <ClCompile Include="Neuron.cpp">
+      <Filter>Source Files\NN</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBNeuron.cpp">
+      <Filter>Source Files\NN</Filter>
+    </ClCompile>
+    <ClCompile Include="Eye.cpp">
+      <Filter>Source Files\NN</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +98,12 @@
       <Filter>Shaders</Filter>
     </None>
     <None Include="shaders\fadeShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\synapseShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="shaders\synapseShader.vert">
       <Filter>Shaders</Filter>
     </None>
   </ItemGroup>

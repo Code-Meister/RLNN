@@ -188,6 +188,8 @@
     <None Include="shaders\firstShader.vert" />
     <None Include="shaders\lastShader.frag" />
     <None Include="shaders\lastShader.vert" />
+    <None Include="shaders\synapseShader.frag" />
+    <None Include="shaders\synapseShader.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,6 +15,8 @@ public:
 	Neurons neurons;
 
 	void generate();
+	void wire();
+	Neuron * getRandomNeuron();
 	void generate(uint32_t seed);
 };
 

@@ -64,3 +64,22 @@ void NeuralNet::generate()
 {
 	generate(0);
 }
+
+void NeuralNet::wire()
+{
+	for (Neuron& neuron: neurons)
+	{
+		for (int i = 0; i < MAX_CONNECTIONS; i++)
+		{
+			Neuron* newNeuron = getRandomNeuron();
+			neuron.addConnection(newNeuron);
+		}
+	}
+}
+
+Neuron* NeuralNet::getRandomNeuron()
+{
+	size_t index = rand() % neurons.size();
+
+	return &neurons[index];
+}
