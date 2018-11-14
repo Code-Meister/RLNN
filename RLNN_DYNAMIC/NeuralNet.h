@@ -3,20 +3,16 @@
 #include <vector>
 
 #include "Neuron.h"
+#include "NeuralRegion.h"
 
-#define NEURONS_PER_LAYER 512
-#define LAYERS 6
-#define MAX_NEURONS (NEURONS_PER_LAYER * LAYERS)
-
-typedef std::vector<Neuron> Neurons;
-class NeuralNet
+class NeuralNet : public Wireable
 {
 public:
-	Neurons neurons;
+	NeuralRegions regions;
 
-	void generate();
-	void wire();
-	Neuron * getRandomNeuron();
-	void generate(uint32_t seed);
+	NeuralRegion* createRegion();
+
+	virtual void wire() override;
 };
 
+typedef std::vector<NeuralNet*> NeuralNets;

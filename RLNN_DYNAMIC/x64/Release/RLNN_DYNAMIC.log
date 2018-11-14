@@ -1,21 +1,12 @@
-﻿  Camera.cpp
-c:\users\austin\documents\github\rlnn\rlnn_dynamic\camera\camera.cpp(68): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\austin\documents\github\rlnn\rlnn_dynamic\camera\camera.cpp(69): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
-c:\users\austin\documents\github\rlnn\rlnn_dynamic\camera\camera.cpp(70): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
-          with
-          [
-              T=float
-          ]
+﻿  main.cpp
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(261): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(262): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(263): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(265): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(266): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\main.cpp(267): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
   Generating code
-  3 of 1057 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+  0 of 1057 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
