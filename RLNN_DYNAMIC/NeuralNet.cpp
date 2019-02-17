@@ -2,6 +2,8 @@
 #include <random>
 #include <iostream>
 
+#include "GLAbstraction.h"
+
 void NeuralNet::generate(uint32_t seed)
 {
 	srand(seed);

@@ -7,9 +7,11 @@
 
 struct Neuron
 {
-	double x;
-	double y;
-	double z;
+	float x;
+	float y;
+	float z;
+
+	float sensitivity;
 
 	uint8_t layer;
 

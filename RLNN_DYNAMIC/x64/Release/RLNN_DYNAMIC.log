@@ -1,15 +1,15 @@
 ﻿  Camera.cpp
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\camera\camera.cpp(68): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\camera\camera.cpp(68): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\camera\camera.cpp(69): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\camera\camera.cpp(69): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\camera\camera.cpp(70): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\camera\camera.cpp(70): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
@@ -17,20 +17,22 @@ c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\camera\camera.cpp(7
   CameraManager.cpp
   CameraTrack.cpp
   Eye.cpp
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\neuron.h(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  GLAbstraction.cpp
+  mainBackup.cpp
   NeuralLayer.cpp
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\neuron.h(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   NeuralNet.cpp
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\neuron.h(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Neuron.cpp
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\neuron.h(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Neuron3d.cpp
+  Perspective.cpp
+  PerspectiveNet.cpp
+  PictureInput.cpp
   RGBNeuron.cpp
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\neuron.h(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   main.cpp
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\main.cpp(662): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\main.cpp(663): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\main.cpp(664): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\main.cpp(666): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\main.cpp(667): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\main.cpp(668): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-  Generating code
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\main.cpp(439): warning C4715: 'GLComponent::addAttrib': not all control paths return a value
-c:\users\austin lindquist\documents\github\rlnn\rlnn_dynamic\main.cpp(332): warning C4715: 'GLShader::addVar': not all control paths return a value
-  All 1057 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  RLNN_DYNAMIC.vcxproj -> C:\Users\Austin Lindquist\Documents\GitHub\RLNN\x64\Release\RLNN_DYNAMIC.exe
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\neuron.h(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  StyleTransferNet.cpp
+c:\users\austin\documents\github\rlnn\rlnn_dynamic\cnpy\cnpy.h(16): fatal error C1083: Cannot open include file: 'zlib.h': No such file or directory

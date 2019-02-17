@@ -13,43 +13,88 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Shaders">
-      <UniqueIdentifier>{6bd01786-021c-43a2-9b08-31f0ae6b5012}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Camera">
       <UniqueIdentifier>{4d5ffb5b-b05b-4421-85d6-d0e051af8222}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\NN">
       <UniqueIdentifier>{2d3f1f6c-19c6-4be1-89d0-531526e8f53e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\3D NN">
+      <UniqueIdentifier>{856034bf-3079-407e-ad40-7246f1889a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3D NN">
+      <UniqueIdentifier>{92fe388c-89f6-4a5a-9755-fdc05fa77099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NN">
+      <UniqueIdentifier>{7ad104c0-c7f4-4e9d-b1f2-6c2b85c2b9b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{54986099-e7d0-4410-9735-16c5e12a368a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OpenGL">
+      <UniqueIdentifier>{e6b71304-19ac-43cf-93d6-7e94950482e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenGL">
+      <UniqueIdentifier>{bf904b27-9553-410a-afc1-b6917a5d2138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NN Shaders">
+      <UniqueIdentifier>{6bd01786-021c-43a2-9b08-31f0ae6b5012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3D NN Shaders">
+      <UniqueIdentifier>{ca963c6e-188e-40b8-9171-3ee660b7430d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StyleTransfer">
+      <UniqueIdentifier>{2a70a251-0060-4cef-a2b5-4daf74d1c1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\StyleTransfer">
+      <UniqueIdentifier>{e2e10113-729f-4397-a34c-5afe70b10b8e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Eye.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NeuralLayer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Neuron.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="RGBNeuron.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="NeuralNet.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Camera\Camera.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Camera\CameraManager.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Camera</Filter>
     </ClInclude>
     <ClInclude Include="Camera\CameraTrack.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraManager.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Eye.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralLayer.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNet.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="Neuron.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBNeuron.h">
+      <Filter>Header Files\NN</Filter>
+    </ClInclude>
+    <ClInclude Include="Neuron3d.h">
+      <Filter>Header Files\3D NN</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureInput.h">
+      <Filter>Header Files\3D NN</Filter>
+    </ClInclude>
+    <ClInclude Include="Perspective.h">
+      <Filter>Header Files\3D NN</Filter>
+    </ClInclude>
+    <ClInclude Include="GLAbstraction.h">
+      <Filter>Header Files\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="PerspectiveNet.h">
+      <Filter>Header Files\3D NN</Filter>
+    </ClInclude>
+    <ClInclude Include="StyleTransferNet.h">
+      <Filter>Header Files\StyleTransfer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -80,31 +125,64 @@
     <ClCompile Include="Eye.cpp">
       <Filter>Source Files\NN</Filter>
     </ClCompile>
+    <ClCompile Include="Neuron3d.cpp">
+      <Filter>Source Files\3D NN</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureInput.cpp">
+      <Filter>Source Files\3D NN</Filter>
+    </ClCompile>
+    <ClCompile Include="Perspective.cpp">
+      <Filter>Source Files\3D NN</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAbstraction.cpp">
+      <Filter>Source Files\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="mainBackup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PerspectiveNet.cpp">
+      <Filter>Source Files\3D NN</Filter>
+    </ClCompile>
+    <ClCompile Include="StyleTransferNet.cpp">
+      <Filter>Source Files\StyleTransfer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="shaders\firstShader.frag">
-      <Filter>Shaders</Filter>
+      <Filter>NN Shaders</Filter>
     </None>
     <None Include="shaders\firstShader.vert">
-      <Filter>Shaders</Filter>
+      <Filter>NN Shaders</Filter>
     </None>
     <None Include="shaders\lastShader.frag">
-      <Filter>Shaders</Filter>
+      <Filter>NN Shaders</Filter>
     </None>
     <None Include="shaders\lastShader.vert">
-      <Filter>Shaders</Filter>
+      <Filter>NN Shaders</Filter>
     </None>
     <None Include="shaders\fadeShader.frag">
-      <Filter>Shaders</Filter>
+      <Filter>NN Shaders</Filter>
     </None>
     <None Include="shaders\fadeShader.vert">
-      <Filter>Shaders</Filter>
+      <Filter>NN Shaders</Filter>
     </None>
     <None Include="shaders\synapseShader.frag">
-      <Filter>Shaders</Filter>
+      <Filter>NN Shaders</Filter>
     </None>
     <None Include="shaders\synapseShader.vert">
-      <Filter>Shaders</Filter>
+      <Filter>NN Shaders</Filter>
+    </None>
+    <None Include="shaders\errorShader.frag">
+      <Filter>3D NN Shaders</Filter>
+    </None>
+    <None Include="shaders\errorShader.vert">
+      <Filter>3D NN Shaders</Filter>
+    </None>
+    <None Include="shaders\renderShader.frag">
+      <Filter>3D NN Shaders</Filter>
+    </None>
+    <None Include="shaders\renderShader.vert">
+      <Filter>3D NN Shaders</Filter>
     </None>
   </ItemGroup>
 </Project>
